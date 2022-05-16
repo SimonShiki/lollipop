@@ -1,0 +1,14 @@
+{
+    "shiki.lollipop.name": "Lollipop",
+    "shiki.lollipop.description": "The sugar is sweetened off!",
+    "shiki.lollipop.category": "Lollipop",
+    "shiki.lollipop.split": "split [STRING] by [SEPARATOR]",
+    "shiki.lollipop.join": "join [ARRAY] with [SEPARATOR]",
+    "shiki.lollipop.exec": "match in [STRING] by RegExp [REGEX]",
+    "shiki.lollipop.test": "test [STRING] by RegExp [REGEX]",
+    "shiki.lollipop.ternary": "if [CONDITION] ? [TRUE] : [FALSE]",
+    "shiki.lollipop.true": "true",
+    "shiki.lollipop.false": "false",
+    "shiki.lollipop.hat": "when [CONDITION]",
+    "shiki.lollipop.factorial": "[NUM]!"
+}

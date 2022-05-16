@@ -1,0 +1,14 @@
+{
+    "shiki.lollipop.name": "棒棒糖",
+    "shiki.lollipop.description": "这糖甜掉牙了!",
+    "shiki.lollipop.category": "棒棒糖",
+    "shiki.lollipop.split": "使用 [SEPARATOR] 作为分隔符拆分 [STRING]",
+    "shiki.lollipop.join": "使用 [SEPARATOR] 连接数组 [ARRAY]",
+    "shiki.lollipop.exec": "使用正则表达式 [REGEX] 匹配 [STRING]",
+    "shiki.lollipop.test": "使用正则表达式 [REGEX] 测试 [STRING]",
+    "shiki.lollipop.ternary": "如果 [CONDITION] 那么返回 [TRUE] 否则返回 [FALSE]",
+    "shiki.lollipop.true": "真",
+    "shiki.lollipop.false": "假",
+    "shiki.lollipop.hat": "当 [CONDITION] 时",
+    "shiki.lollipop.factorial": "[NUM]!"
+}
