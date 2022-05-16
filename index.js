@@ -162,7 +162,7 @@ class Lollipop extends Extension {
         });
         api.addBlock({
             opcode: 'shiki.lollipop.factorial',
-            type: type.BlockType.BOOLEAN,
+            type: type.BlockType.REPORTER,
             messageId: 'shiki.lollipop.factorial',
             categoryId: 'shiki.lollipop.category',
             param: {
