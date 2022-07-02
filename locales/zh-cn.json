@@ -10,5 +10,7 @@
     "shiki.lollipop.true": "真",
     "shiki.lollipop.false": "假",
     "shiki.lollipop.hat": "当 [CONDITION] 时",
-    "shiki.lollipop.factorial": "[NUM]!"
+    "shiki.lollipop.factorial": "[NUM]!",
+    "shiki.lollipop.vibrate": "振动 [DURATION]",
+    "shiki.lollipop.writeClipboard": "向剪贴板内写入 [TEXT]"
 }

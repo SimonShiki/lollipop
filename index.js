@@ -175,6 +175,37 @@ class Lollipop extends Extension {
                 return this.factorial(Number(args.NUM));
             }
         });
+        api.addBlock({
+            opcode: 'shiki.lollipop.vibrate',
+            type: type.BlockType.COMMAND,
+            messageId: 'shiki.lollipop.vibrate',
+            categoryId: 'shiki.lollipop.category',
+            param: {
+                DURATION: {
+                    type: type.ParameterType.NUMBER,
+                    default: '300'
+                }
+            },
+            function: (args) => {
+                navigator.vibrate(Number(args.DURATION));
+            }
+        });
+        api.addBlock({
+            opcode: 'shiki.lollipop.writeClipboard',
+            type: type.BlockType.COMMAND,
+            messageId: 'shiki.lollipop.writeClipboard',
+            categoryId: 'shiki.lollipop.category',
+            param: {
+                TEXT: {
+                    type: type.ParameterType.STRING,
+                    default: 'ClipCC is cool!'
+                }
+            },
+            function: (args) => {
+                if (!navigator.clipboard) return; // 不支持该操作
+                navigator.clipboard.writeText(args.TEXT)
+            }
+        });
     }
 
     factorial (num) {

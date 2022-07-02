@@ -10,5 +10,7 @@
     "shiki.lollipop.true": "true",
     "shiki.lollipop.false": "false",
     "shiki.lollipop.hat": "when [CONDITION]",
-    "shiki.lollipop.factorial": "[NUM]!"
+    "shiki.lollipop.factorial": "[NUM]!",
+    "shiki.lollipop.vibrate": "vibrate [DURATION]",
+    "shiki.lollipop.writeClipboard": "write [TEXT] to clipboard"
 }
